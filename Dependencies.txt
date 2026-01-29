@@ -1,0 +1,54 @@
+# Open your terminal and type the following commands one by one:
+
+# To create an expo app:
+npx create-expo-app your-app-name --template blank
+
+# Then itll create a folder with "your-app-name", enter that folder in your terminal and type the rest:
+
+npm install @react-navigation/native @react-navigation/native-stack @react-navigation/stack @react-navigation/bottom-tabs
+npm install react-native-screens react-native-safe-area-context react-native-safe-area-view react-native-gesture-handler react-native-reanimated
+npm install react-native-web @expo/metro-runtime react-native-webview react-native-video
+npm install firebase
+npm install @react-native-firebase/app
+
+npm install @react-native-firebase/messaging
+
+
+
+# For Alerts:
+npm install dayjs
+npx expo install expo-haptics
+
+# FOR EAS:
+npm install -g eas-cli
+eas build:configure
+eas build --platform android
+npm install express
+npm install firebase-admin
+
+
+
+
+# Don't type this
+npm install axios
+
+# Then download & extract all the files from IDM-Files.zip into your app's project folder and then run your app
+
+# To run your expo-app, type:
+npx expo start
+
+# To clear cache and run, type:
+npx expo start --clear
+
+# If you get axios error in App.js, just comment out that particular line and run again
+
+# If you ever get ES Errors or nobridge errors resulting in a huge load of dependency errors
+# Or if the system is throwing out a whole lot of dependency errors 
+# Never try any of the chatgpt's recommendations of upgrading or downgrading npm modules
+# Just follow all of these steps from the start again with a new name for your app
+# This is the only fix for such errors
+
+6CigJrnqN1u34fhV3k4gvxojEAouzh1x89Bgt3RE
+
+
+
